@@ -2375,7 +2375,7 @@ function menuWatchA() {
 }
 
 function menuWatchC() {
-	window.open('https://bfdia-5b-is-a-game.vercel.app/'); //https://www.youtube.com/watch?v=YrsRLT3u0Cg
+	window.open('about:blank').close(); //https://www.youtube.com/watch?v=YrsRLT3u0Cg
 }
 
 function menuNewGame() {
@@ -2913,7 +2913,7 @@ function drawMenu() {
 	ctx.textAlign = 'left';
 	ctx.font = '20px Helvetica';
 
-	if (levelProgress > 52) drawMenu0Button('you werent supposed to see this...', 665.55, 303.75, false, menuWatchC); //WATCH BFDIA 5c, levelProgress 99
+	if (levelProgress > 52) drawMenu0Button('...', 665.55, 303.75, false, menuWatchC); //WATCH BFDIA 5c, levelProgress 99
 	else drawMenu0Button('WATCH BFDIA 5a', 665.55, 303.75, false, menuWatchA);
 	if (showingNewGame2) {
 		drawRoundedRect('#ffffff', 665.5, 81, 273, 72.95, 15);
