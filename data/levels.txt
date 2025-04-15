@@ -19,8 +19,7 @@ Time to explore
 ////////////////////////////////
 ////////////////////////////////
 ////////////////////////////////
-55,00.00,18.00,10 853
-01,03.50,00.00,10
+01,03.50,00.00,10 853
 06
 00S Whoa!  Hold on a second; this place doesn't look familiar.  What happened?    I don't remember anything!
 00S Uh... well, um... uh.... gosh, I'm so confused.
