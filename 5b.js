@@ -275,6 +275,10 @@ function tileAt(j, i, y) {
 	return num - 81;
 }
 
+function findTileConst(levelWidth, x, y) {
+	return y * (levelWidth + 1) + x + 9;
+}
+
 // Load Level Data
 function loadLevels() {
 	levelCount = 54;
@@ -318,19 +322,17 @@ function loadLevels() {
 		if (longMode) {
 			for (let y = 0; y < levelHeight; y++) {
 				for (let x = 0; x < levelWidth; x++) {
-					levels[i][y][x] =
-						111 * tileAt(y * (levelWidth * 2 + 2) + x * 2 + 17, i, y) +
-						tileAt(y * (levelWidth * 2 + 2) + x * 2 + 18, i, y);
+					levels[i][y][x] = 111 * tileAt(2 * findTileConst(levelWidth, x, y) - 1) + tileAt(2 * findTileConst(levelWidth, x, y));
 				}
 			}
-			levelStart += levelHeight * (levelWidth * 2 + 2) + 17;
+			levelStart += 2 * findTileConst(levelWidth, 0, levelHeight) - 1;
 		} else {
 			for (let y = 0; y < levelHeight; y++) {
 				for (let x = 0; x < levelWidth; x++) {
-					levels[i][y][x] = tileAt(y * (levelWidth + 2) + x + 17, i, y);
+					levels[i][y][x] = tileAt(findTileConst(levelWidth, x, y) + (y + 8));
 				}
 			}
-			levelStart += levelHeight * (levelWidth + 2) + 17;
+			levelStart += findTileConst(levelWidth, 0, levelHeight) + (levelHeight + 8);
 		}
 
 		// Read Entity Data
