@@ -1757,6 +1757,11 @@ wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
 01,06.25,11.00,10
 02,18.50,04.00,06
 04
+01S I don't think we were supposed to get past that wall...
+02H I WANT REVENGE >:)
+00S No! Icy, you don't have to do this! (:-(
+50S lever switch
+000000
 
 I'm sorry
 32,18,03,11,H
@@ -1774,7 +1779,7 @@ I'm sorry
 .....................................w/B........................
 ..................................../B.w............../C........
 ..................................../B.w........................
-...............................4.....w/B........................
+.....................................w/B.....................4..
 /B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B.w.w/B.w/B.w.w.w.w.w.w.w.w.w.w
 /B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B.w/B/B.w.w.w.w.w.w.w.w.w.w.w
 /B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B/B.w.w.w.w.w.w.w.w.w.w.w.w.w
@@ -1782,9 +1787,4 @@ I'm sorry
 01,03.90,15.00,10
 02,01.00,15.00,10
 00
-000000
-01S I don't think we were supposed to get past that wall...
-02H I WANT REVENGE >:)
-00S No! Icy, you don't have to do this! (:-(
-50S lever switch
 000000
