@@ -1760,7 +1760,7 @@ wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
 01S I don't think we were supposed to get past that wall...
 02H I WANT REVENGE >:)
 00S No! Icy, you don't have to do this! (:-(
-51S lever switch
+50S lever switch
 000000
 
 I'm sorry
