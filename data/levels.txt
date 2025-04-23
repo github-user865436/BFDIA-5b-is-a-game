@@ -1739,7 +1739,7 @@ wwwww...a........................wwwwwwwwwww
 www..S..b........................wwwwwwwwwww
 w....b...........................wwwwwwwwwww
 ........6....v...................wwwwwwwwwww
-....wsadWwwwsv.c.................wwwwwwwwwww
+....wswdWwwwsv.c.................wwwwwwwwwww
 ....aZr.F.Fsr..d.................wwwwwwwwwww
 @@..b...F6G«ªªªc.............s...wwwwwwwwwww
 ....Z...F.FF==T..................wwwwwwwwwww
@@ -1765,9 +1765,9 @@ wwwwwAA.F.AEAA.F.............Z...wwwwwwwwwww
 ..Z..............................wwwwwwwwwww
 ..Z............................4.wwwwwwwwwww
 wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
-03,06.50,19.00,10
-01,07.25,19.00,10
-02,30.35,17.00,09
+03,06.50,21.00,10
+01,07.25,21.00,10
+02,30.35,19.00,09
 05
 01S I don't think we were supposed to get past that wall...
 02H I WANT REVENGE >:)
